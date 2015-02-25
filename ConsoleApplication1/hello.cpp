@@ -2,8 +2,13 @@
 // Jitesh Somdut, CM3 2015, Tut1 25/02/2015
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-	std::cout << "Hello, World!" << std::endl;
+	std::string myName; 
+
+	std::cout << "Please enter your name: ";
+	std::cin >> myName;
+	std::cout << "Hello, " << myName << std::endl;
 }
